@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Da video a MP3</title>
+  <title>Convertitore Video in MP3</title>
 </head>
 <body>
-    <form class="" action="convertitore.php" enctype="multipart/form-data" method="pos">
-        Video <input type="file" name="video" value="">
-        <button type="submit" name="download">Scarica</button>
-    </form>
+  <h1>Convertitore Video in MP3</h1>
+  <p>Versione 1.0</p>
+  <form action="convertitore.php" method="post">
+    <label>Inserisci il link al video:</label>
+    <input type="text" name="videoLink"><br><br>
+    <button type="submit">Converti in MP3</button>
+  </form>
 </body>
 </html>
